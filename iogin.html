@@ -28,9 +28,6 @@
 </head>
 
 <body>
-    <!-- 
-    - #HEADER
-  -->
 
     <header class="header" data-header>
         <div class="container">
@@ -102,7 +99,7 @@
                     </li>
 
                     <li>
-                        <a href="#" class="navbar-link" data-nav-link>
+                        <a href="./contact.html" class="navbar-link" data-nav-link>
                             <span>Contact</span>
 
                             <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
@@ -112,9 +109,9 @@
                 </ul>
 
             </nav>
-           
+
             <div class="header-action">
-                
+
 
                 <button class="search-btn" aria-label="Search">
                     <ion-icon name="search-outline"></ion-icon>
@@ -134,58 +131,79 @@
 
                 <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
             </button>
-            
+
 
         </div>
 
         </div>
     </header>
-
     <main>
         <article>
+            <main>
+                <article>
 
-            <!-- 
-        - contact
-      -->
+                    <!-- 
+    - contact
+  -->
 
-            <section class="hero" id="home">
-                <div class="container">
-                    <div class="contact-form-BG">
+                    <section class="hero" id="home">
+                        <div class="container ">
+                            <div class="login-form-BG">
 
-                        <div class="container">
-                            <form id="contact" action="" method="post">
-                                <h3>Colorlib Contact Form</h3>
-                                <h4>Contact us for custom quote</h4>
-                                <fieldset>
-                                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                                </fieldset>
-                                <fieldset>
-                                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                                </fieldset>
-                                <fieldset>
-                                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-                                </fieldset>
-                                <fieldset>
-                                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-                                </fieldset>
-                                <fieldset>
-                                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                                </fieldset>
-                                <fieldset class="submit-button">
-                                    <button name="submit" type="submit" id="contact-submit"
-                                        data-submit="...Sending">Submit</button>
-                                </fieldset>
-                            </form>
+                                <!-- open -->
+                                <section class="login-section">
+                                    <h4 class="log-in-header">Log In</h4>
+                                    <form class="login-form">
+
+                                        <div class="InputContainer">
+                                            <label class="label">Email Address*</label>
+                                            <input class="input" type="text">
+                                        </div>
+                                        <div class="InputContainer">
+                                            <label class="label">Password*</label>
+                                            <div class="PasswordInputContainer">
+                                                <input class="input" type="password">
+                                           
+                                            </div>
+                                            <label class="PasswordLabel">Must be 8 characters at least</label>
+                                        </div>
+                                        <div class="InputContainer RememberForgotContainer">
+                                            <div class="RememberMeContainer">
+                                                <input type="checkbox" class="CheckboxInput">
+                                                <label style="padding-left: 5px;"><b>Remember me</b></label>
+                                            </div>
+                                            <div class="ForgotPasswordContainer"><a>Forgot Password?</a></div>
+                                        </div>
+                                </section>
+                                <section class="ButtonsContainer">
+                                    <div class="SignInButtonContainer">
+                                        <button class="SigninButton">Sign in</button>
+                                    </div>
+
+
+
+
+
+
+                                    </form>
+
+                                </section>
+
+
+
+                                <!-- close -->
+                            </div>
+
+
                         </div>
+                    </section>
 
-                    </div>
-
-
-                </div>
-            </section>
+                </article>
+            </main>
 
         </article>
     </main>
+
 </body>
 
 </html>

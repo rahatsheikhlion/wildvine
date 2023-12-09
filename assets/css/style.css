@@ -1476,6 +1476,14 @@ body {
 
 }
 
+.log-in-header {
+    color: #0c0e47;
+    text-align: center;
+    font-size: 25px;
+    /* font-weight: bold !important; */
+    font-weight: 900;
+}
+
 .submit-button {
   display: flex;
   /* max-width: 500px !important; */
@@ -1605,4 +1613,144 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+
+/** --------loge-in------ **/
+
+.login-button a {
+  font-size: 19px;
+  font-weight: 800;
+ color: #FFF;
+}
+
+
+.login-form-BG{
+  background-color: #FFF;
+  max-width: 500px;
+  max-height: 700px;
+  margin: 0 auto;
+  border: 1px solid #43A047;
+  padding: 30px;
+  border-radius: 15px;
+  opacity: 90%;
+}
+
+
+
+
+.FormContainer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: max-content;
+}
+
+.FormContainer .InputContainer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: max-content;
+}
+
+.InputContainer .label{
+  display: block;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #0c0e47;
+    opacity: 80%;
+}
+
+
+.InputContainer .input{
+  width: calc(100% - 6px);
+  line-height: var(--input-height);
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.InputContainer .PasswordInputContainer{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.InputContainer .PasswordInputContainer .input{
+  width: 98%;
+}
+
+.InputContainer .PasswordInputContainer .ShowPasswordButton{
+  cursor: pointer;
+  width: 10%;
+  height: calc(var(--input-height) + 4px);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-left: 0px;
+}
+
+.InputContainer .PasswordInputContainer .ShowPasswordButton:hover svg{
+  fill: black;
+}
+
+.InputContainer .PasswordLabel{
+  font-weight: bold;
+  color: gray;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.InputContainer.RememberForgotContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.InputContainer .CheckboxInput{
+  margin: 0px;
+  width: 18px;
+  height: 18px;
+}
+
+.RememberMeContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.RememberMeContainer b {
+  
+  color: #0c0e47;
+  opacity: 60%;
+}
+
+.ForgotPasswordContainer{
+  color: red;
+  cursor: pointer;
+}
+
+.ButtonsContainer .SignInButtonContainer .SigninButton:hover{
+  background-color: #78b009;
+}
+
+.ButtonsContainer .SignInButtonContainer .SigninButton{
+  width: 100%;
+  background-color: #78b009;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.ButtonsContainer {
+  margin-top: 30px;
 }
